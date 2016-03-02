@@ -1,0 +1,18 @@
+{
+    "name": "Last Tab Open",
+  "version": "1.00",
+  "homepage_url": "https://github.com/dieterds/LastTabOpen",
+  "short_name": "LastTabOpen",
+    "description": "Keeps a pinned tab open to prevent closing the browser by closing the last tab.",
+    "background": {
+        "page": "background.html"
+    },
+    "icons": {
+        "128": "gfx/icon128.png"
+    },   
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+  "manifest_version": 2
+}
